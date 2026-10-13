@@ -47,11 +47,9 @@ VBA add-in for Autodesk Inventor 2026/2027. Bulk-converts `.idw` drawings to PDF
 - **Inventor add-ins** in C# (.NET 8 / .NET 10)  
 - **ERP read integration** with Autodesk Inventor  
 
-At Wyma Solutions I developed and improved automation covering:  drawing validation, BOM generation, parametric product configurators,  
-and read integration with the Ostendo ERP system.  
+At Wyma Solutions I developed and improved automation covering:  drawing validation, BOM generation, parametric product configurators,  and read integration with the Ostendo ERP system.  
 
-I also led the initial 3D design of the Micron Filter — built the first  parametric model covering three size variants. The product was further  
-developed by the team and is now launched globally as the Micron Filter XL.  
+I also led the initial 3D design of the Micron Filter — built the first  parametric model covering three size variants. The product was further  developed by the team and is now launched globally as the Micron Filter XL.  
 
 ---
 
