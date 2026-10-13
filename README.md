@@ -1,4 +1,4 @@
-# Jugoslav Ilic — CAD Automation Specialist
+# Jugoslav Ilić — CAD Automation Specialist
 
 Building automation tools for Autodesk Inventor.  
 23+ years in mechanical engineering. 4 years at Wyma Solutions (NZ)  
