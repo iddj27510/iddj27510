@@ -1,8 +1,7 @@
 # Jugoslav Ilić — CAD Automation Specialist
 
 Building automation tools for Autodesk Inventor.  
-23+ years in mechanical engineering. 4 years at Wyma Solutions (NZ)  
-as Senior Design Engineer.
+23+ years in mechanical engineering. 4 years at Wyma Solutions (NZ) as Senior Design Engineer.
 
 ---
 
@@ -10,28 +9,20 @@ as Senior Design Engineer.
 
 ### [Batch PDF Publisher](https://github.com/iddj27510/BatchPDFPublisher)
 
-VBA add-in for Autodesk Inventor 2026/2027. Bulk-converts `.idw`
-drawings to PDF with per-file reporting, drawing audit, and full
-13-language localization.
+VBA add-in for Autodesk Inventor 2026/2027. Bulk-converts `.idw` drawings to PDF with per-file reporting, drawing audit, and full 13-language localization.
 
-**Scale:** 52 VBA components, 49 unit tests, 15 documentation files,
-CycloneDX 1.5 SBOM, GitHub Actions CI.
+**Scale:** 52 VBA components, 49 unit tests, 15 documentation files, CycloneDX 1.5 SBOM, GitHub Actions CI.
 
 **Engineering highlights:**
 
-- 6-layer architecture with isolated API boundaries
-  ([ARCHITECTURE.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/docs/ARCHITECTURE.md))
-- OWASP Top 10:2025 mapped, EU CRA procedures, WCAG 2.2 AA partial
-  ([COMPLIANCE.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/COMPLIANCE.md))
-- Structured logging with PII masking, JSON mode, multi-archive
-  rotation, 90-day audit trail
+- 6-layer architecture with isolated API boundaries ([ARCHITECTURE.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/docs/ARCHITECTURE.md))
+- OWASP Top 10:2025 mapped, EU CRA procedures, WCAG 2.2 AA partial ([COMPLIANCE.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/COMPLIANCE.md))
+- Structured logging with PII masking, JSON mode, multi-archive rotation, 90-day audit trail
 - Atomic PDF replace with `.bak` fallback and rollback
 - Single-instance lock, network failure detection
-- Prioritized technical debt register
-  ([TECH_DEBT.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/TECH_DEBT.md))
+- Prioritized technical debt register ([TECH_DEBT.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/TECH_DEBT.md))
 
-**Compliance:** MIT license, CISA 2026 SBOM (23/23 elements),
-documented MSForms platform limitations.
+**Compliance:** MIT license, CISA 2026 SBOM (23/23 elements), documented MSForms platform limitations.
 
 [![CI](https://github.com/iddj27510/BatchPDFPublisher/actions/workflows/ci.yml/badge.svg)](https://github.com/iddj27510/BatchPDFPublisher/actions/workflows/ci.yml)
 [![Tests](https://img.shields.io/badge/tests-49%20passed-brightgreen.svg)](https://github.com/iddj27510/BatchPDFPublisher/blob/main/src/modTests.bas)
@@ -56,12 +47,10 @@ documented MSForms platform limitations.
 - **Inventor add-ins** in C# (.NET 8 / .NET 10)  
 - **ERP read integration** with Autodesk Inventor  
 
-At Wyma Solutions I developed and improved automation covering:  
-drawing validation, BOM generation, parametric product configurators,  
+At Wyma Solutions I developed and improved automation covering:  drawing validation, BOM generation, parametric product configurators,  
 and read integration with the Ostendo ERP system.  
 
-I also led the initial 3D design of the Micron Filter — built the first  
-parametric model covering three size variants. The product was further  
+I also led the initial 3D design of the Micron Filter — built the first  parametric model covering three size variants. The product was further  
 developed by the team and is now launched globally as the Micron Filter XL.  
 
 ---
