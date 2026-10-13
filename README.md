@@ -6,10 +6,45 @@ as Senior Design Engineer.
 
 ---
 
+## Flagship Project
+
+### [Batch PDF Publisher](https://github.com/iddj27510/BatchPDFPublisher)
+
+VBA add-in for Autodesk Inventor 2026/2027. Bulk-converts `.idw`
+drawings to PDF with per-file reporting, drawing audit, and full
+13-language localization.
+
+**Scale:** 52 VBA components, 49 unit tests, 15 documentation files,
+CycloneDX 1.5 SBOM, GitHub Actions CI.
+
+**Engineering highlights:**
+
+- 6-layer architecture with isolated API boundaries
+  ([ARCHITECTURE.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/docs/ARCHITECTURE.md))
+- OWASP Top 10:2025 mapped, EU CRA procedures, WCAG 2.2 AA partial
+  ([COMPLIANCE.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/COMPLIANCE.md))
+- Structured logging with PII masking, JSON mode, multi-archive
+  rotation, 90-day audit trail
+- Atomic PDF replace with `.bak` fallback and rollback
+- Single-instance lock, network failure detection
+- Prioritized technical debt register
+  ([TECH_DEBT.md](https://github.com/iddj27510/BatchPDFPublisher/blob/main/TECH_DEBT.md))
+
+**Compliance:** MIT license, CISA 2026 SBOM (23/23 elements),
+documented MSForms platform limitations.
+
+[![CI](https://github.com/iddj27510/BatchPDFPublisher/actions/workflows/ci.yml/badge.svg)](https://github.com/iddj27510/BatchPDFPublisher/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-49%20passed-brightgreen.svg)](https://github.com/iddj27510/BatchPDFPublisher/blob/main/src/modTests.bas)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/iddj27510/BatchPDFPublisher/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/version-9.25.32-blue.svg)](https://github.com/iddj27510/BatchPDFPublisher/releases)
+
+---
+
 ## Open Source Libraries
 
 | Repository | Description |
 |---|---|
+| **[BatchPDFPublisher](https://github.com/iddj27510/BatchPDFPublisher)** | **Flagship:** VBA add-in for Inventor - 52 components, 49 tests, SBOM, CI |
 | [Inventor-iLogic-Library](https://github.com/iddj27510/Inventor-iLogic-Library) | 47 iLogic rules for daily Inventor automation |
 | [Inventor-VBA-Macro-Library](https://github.com/iddj27510/Inventor-VBA-Macro-Library) | 30 VBA macros for batch Inventor processing |
 | [Inventor-Python-Scripts](https://github.com/iddj27510/Inventor-Python-Scripts) | 10 Python utilities for Inventor file management |
