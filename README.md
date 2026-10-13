@@ -45,10 +45,7 @@ documented MSForms platform limitations.
 | Repository | Description |
 |---|---|
 | **[BatchPDFPublisher](https://github.com/iddj27510/BatchPDFPublisher)** | **Flagship:** VBA add-in for Inventor - 52 components, 49 tests, SBOM, CI |
-| [Inventor-iLogic-Library](https://github.com/iddj27510/Inventor-iLogic-Library) | 47 iLogic rules for daily Inventor automation |
-| [Inventor-VBA-Macro-Library](https://github.com/iddj27510/Inventor-VBA-Macro-Library) | 30 VBA macros for batch Inventor processing |
-| [Inventor-Python-Scripts](https://github.com/iddj27510/Inventor-Python-Scripts) | 10 Python utilities for Inventor file management |
-| [Inventor-PowerShell-Scripts](https://github.com/iddj27510/Inventor-PowerShell-Scripts) | 6 PowerShell utilities for CAD administration |
+| [Inventor-iLogic-Library](https://github.com/iddj27510/Inventor-iLogic-Library) | Production-grade iLogic rules. Currently shipping IL-03 Flat Pattern DXF Batch Exporter. |
 
 ---
 
